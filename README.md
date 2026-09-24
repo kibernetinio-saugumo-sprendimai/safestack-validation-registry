@@ -25,14 +25,15 @@ Projects registered here must:
 
 ## Validated Ecosystem Projects
 
-### 1. SafeStack PI5 VPN Freedom
-- **Repository:** [`kibernetinio-saugumo-sprendimai/safestack-PI5-VPN-Freedom`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-PI5-VPN-Freedom)
-- **Deployment:** Raspberry Pi 5 Autonomous Zero-Trust VPN Node & Web Control Panel
-- **Compliance Status:** **Fully Validated** (Root Canon v1.0.0, Technical Canon v1.0.0)
-- **Artifact Hash Manifest:** `release/safestack-pi5.sha256`
-- **Signing Public Key:** Registered in [`safestack-project-public-keys`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-project-public-keys) (`release-signing/safestack-pi5-2026.pub`, fingerprint `SHA256:6bUvQeyGzXxDIUMnUyIoJPRbEeX3khAhRmYycwmgJq4`)
-- **Attestation & Declaration:** [`VALIDATION.md`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-PI5-VPN-Freedom/blob/main/VALIDATION.md)
-- **Security Audit:** Lynis 3.1.7 Hardening Index 81/100, 0 CVEs
+### 1. SafeStack NodeOS
+- **Repository:** [`kibernetinio-saugumo-sprendimai/node-os`](https://github.com/kibernetinio-saugumo-sprendimai/node-os)
+- **Deployment:** Autonomous Zero-Trust edge security layer & NVMe health monitoring for Raspberry Pi 5
+- **Compliance Status:** **Fully Validated** (v0.2.0, Root Canon v1.0.0, Technical Canon v1.0.0)
+- **Key Fingerprint:** `a89d861185c7603c0c01722150ee5ea6d61c5da94cabe99973baa41ab9a9c288` (`project-005`)
+- **Public Key:** `A5GWe1zzjq43Rjg9xfNgdSa2u8reF5Z4AkVyvHFoZtw=`
+- **Embedded Root Key:** `9760c594fe7e5638a2a6c351db7503817fb803a43cf5ad8547a08d8b6297ad22`
+- **Release Manifest:** [`v0.2.0`](https://github.com/kibernetinio-saugumo-sprendimai/node-os/releases/tag/v0.2.0) (`SHA256SUMS`)
+- **Attestation:** `AUDIT_REPORT.md` (Ed25519 signed: `AUDIT_REPORT.md.sig`)
 
 ### 2. SafeStack Technical Canon
 - **Repository:** [`kibernetinio-saugumo-sprendimai/safestack-technical-canon`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-technical-canon)
@@ -43,7 +44,7 @@ Projects registered here must:
 
 ### 3. SafeStack Control Architecture
 - **Repository:** [`kibernetinio-saugumo-sprendimai/safestack-control-architecture`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-control-architecture)
-- **Role:** 5-Layer Control Model (Network, Encryption, Infrastructure, Application, Identity)
+- **Role:** Layered Control Model (Network, Encryption, Infrastructure, Application, Identity)
 - **Compliance Status:** **Fully Validated** (Architectural Framework)
 - **Key Fingerprint:** `e91f92abe2e4ca9d4b65dd6c49e8230ff2d7266c0a6990d91e104628a89b6766` (`project-006`)
 - **Dossier:** `index.html` (published control dossier)
@@ -67,13 +68,3 @@ Projects registered here must:
 - **Role:** Detached factual cryptographic checksums and verification manifests for external validation
 - **Compliance Status:** **Fully Validated**
 - **Key Fingerprint:** `cf748daff8695375496791d67ca963e0add179e5065cbc50295fcce1b51bd6e4` (`project-018`)
-
-### 7. SafeStack NodeOS
-- **Repository:** [`kibernetinio-saugumo-sprendimai/node-os`](https://github.com/kibernetinio-saugumo-sprendimai/node-os)
-- **Deployment:** Autonomous Zero-Trust edge security layer & NVMe health monitoring for Raspberry Pi 5
-- **Compliance Status:** **Fully Validated** (v0.2.0, Root Canon v1.0.0, Technical Canon v1.0.0)
-- **Key Fingerprint:** `a89d861185c7603c0c01722150ee5ea6d61c5da94cabe99973baa41ab9a9c288` (`project-005`)
-- **Public Key:** `A5GWe1zzjq43Rjg9xfNgdSa2u8reF5Z4AkVyvHFoZtw=`
-- **Embedded Root Key:** `9760c594fe7e5638a2a6c351db7503817fb803a43cf5ad8547a08d8b6297ad22`
-- **Release Manifest:** [`v0.2.0`](https://github.com/kibernetinio-saugumo-sprendimai/node-os/releases/tag/v0.2.0) (`SHA256SUMS`)
-- **Attestation:** `AUDIT_REPORT.md` (Ed25519 signed: `AUDIT_REPORT.md.sig`)

@@ -67,3 +67,13 @@ Projects registered here must:
 - **Role:** Detached factual cryptographic checksums and verification manifests for external validation
 - **Compliance Status:** **Fully Validated**
 - **Key Fingerprint:** `cf748daff8695375496791d67ca963e0add179e5065cbc50295fcce1b51bd6e4` (`project-018`)
+
+### 7. SafeStack NodeOS
+- **Repository:** [`kibernetinio-saugumo-sprendimai/node-os`](https://github.com/kibernetinio-saugumo-sprendimai/node-os)
+- **Deployment:** Autonomous Zero-Trust edge security layer & NVMe health monitoring for Raspberry Pi 5
+- **Compliance Status:** **Fully Validated** (v0.2.0, Root Canon v1.0.0, Technical Canon v1.0.0)
+- **Key Fingerprint:** `a89d861185c7603c0c01722150ee5ea6d61c5da94cabe99973baa41ab9a9c288` (`project-005`)
+- **Public Key:** `A5GWe1zzjq43Rjg9xfNgdSa2u8reF5Z4AkVyvHFoZtw=`
+- **Embedded Root Key:** `9760c594fe7e5638a2a6c351db7503817fb803a43cf5ad8547a08d8b6297ad22`
+- **Release Manifest:** [`v0.2.0`](https://github.com/kibernetinio-saugumo-sprendimai/node-os/releases/tag/v0.2.0) (`SHA256SUMS`)
+- **Attestation:** `AUDIT_REPORT.md` (Ed25519 signed: `AUDIT_REPORT.md.sig`)

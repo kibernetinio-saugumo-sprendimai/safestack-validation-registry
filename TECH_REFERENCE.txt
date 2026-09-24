@@ -1,3 +1,5 @@
 SafeStack Technical Canon:
-https://github.com/safestack-labs/safestack-technical-canon
+https://github.com/kibernetinio-saugumo-sprendimai/safestack-technical-canon
 Version: 1.0.0
+SHA256: 596ad60c745505440863e5e77a042ecf2e8506ae482555e03e07550704745bdf
+Signature: TECHNICAL_CANON.json.asc

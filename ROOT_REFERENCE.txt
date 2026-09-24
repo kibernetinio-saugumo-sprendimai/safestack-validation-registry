@@ -1,3 +1,5 @@
 SafeStack Root of Trust:
-https://github.com/safestack-labs/safestack-root-of-trust
+https://github.com/kibernetinio-saugumo-sprendimai/safestack-canon
 Version: 1.0.0
+Root Genesis Hash: 1286A7A8315118E0A49EA0B3155B0A921EDF1302CF1CB6F6F8F2903A6FFC2058
+Signed Canon: CANON_HASHES.md.asc

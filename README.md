@@ -21,6 +21,19 @@ Projects registered here must:
   shasum -a 256 -c REGISTRY_HASH.txt
   ```
 
+## Registered release-signing keys
+
+### SafeStack Pi 5 VPN — active from 2026-10-14
+
+- **Repository:** [`kibernetinio-saugumo-sprendimai/safestack-Pi-5-VPN`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-Pi-5-VPN)
+- **Public key:** [`release-signing/safestack-pi5-vpn-2026-10-14.pub`](release-signing/safestack-pi5-vpn-2026-10-14.pub)
+- **Algorithm:** SSH Ed25519
+- **Fingerprint:** `SHA256:4M3iJl8DNaGgqnDrKPaElv1/Fmsx1G2JRLEaaWgWkHg`
+- **First signed commit:** [`82f0897400f9612753c35c201c45f226d29793ed`](https://github.com/kibernetinio-saugumo-sprendimai/safestack-Pi-5-VPN/commit/82f0897400f9612753c35c201c45f226d29793ed)
+
+This release-signing key is separate from the project's root-signed identity
+key. The private key is not stored in this registry.
+
 ---
 
 ## Validated Ecosystem Projects
